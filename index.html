@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+    <meta charset="utf-8">
+    <title>forms</title>
+
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+
+<form action="https://formspree.io/tierney.s@live.com" method="post">
+
+  <div>
+    <label for="name">username</label>
+    <input id="name" name="name" required placeholder="name">
+  </div>
+
+  <div>
+    <label for="password">password</label>
+    <input id="password" type="password" name="password" required placeholder="password">
+  </div>
+
+  <div>
+    <label for="email">email</label>
+    <input id="email" type="email" name="email" required placeholder="email">
+  </div>
+
+  <div>
+    <label for="subject">Subject</label>
+    <select id="subject" name="_subject" required>
+      <option>Free</option>
+      <option>$10/year</option>
+      <option>$30/year</option>
+    </select>
+  </div>
+
+  <fieldset>
+    <legend>wassup</legend>
+
+    <input id="happy" type="radio" name="feels">
+    <label for="happy">Happy</label>
+
+    <input id="sad" type="radio" name="feels">
+    <label for="sad">sad</label>
+
+    <input id="boo" type="radio" name="feels">
+    <label for="boo">boo</label>
+
+    <input id="meh" type="radio" name="feels">
+    <label for="meh">meh</label>
+  </fieldset>
+
+  <div>
+    <label for="message">Message</label>
+    <textarea id="message" name="message"></textarea>
+  </div>
+
+
+  <div>
+    <button typre="submit">Send</button>
+  </div>
+</form>
+
+
+</body>
+</html>
